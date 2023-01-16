@@ -1,0 +1,51 @@
+body {
+
+    background-color: #000000;
+    color: white;
+    font-size: 20px;
+    font-family: "Copperplate", Copperplate;
+    text-align: center;
+}
+input[type=text] {
+    width: 200px;
+    height: 15px;
+}
+input[type=submit] {
+    width: 200px;
+    height: 50px;
+    font-family: "Copperplate", Copperplate;
+    cursor: pointer;
+
+
+}
+div[class=userInput]{
+    margin-bottom: 15px;
+    width: 600px;
+    margin: 0 auto;
+    background-color: #000000;
+    padding: 0 20px 20px 20px;
+    border: 5px solid white;
+}
+div[class=menu]{
+    height: 58px;
+    background-color: #13004a;
+    text-align: center;
+}
+div{
+    margin-bottom: 15px;
+}
+.button{
+    background-color: transparent;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    font-family: "Copperplate", Copperplate;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+

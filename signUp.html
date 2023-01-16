@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<link href="cssSignUp.css" rel="stylesheet" />
+
+<html>
+    <head>
+        <title>Sign Up</title>
+    </head>
+    <div class="menu">
+        <button class="button" onclick="window.location.href='trip.html';">
+            Plan the Trip
+        </button>
+    </div>
+    <h1>Sign Up</h1>
+    <body>
+        <div class="userInput">
+            <form action="/trip.html">
+                <div>
+                    <label>user ID:</label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label>Password:</label>
+                    <input type="text">
+                    
+                </div>
+                <div>
+                    <label>First Name:</label>
+                    <input style="width: 160px;" type="text">
+                </div>
+                <div>
+                    <label>Last Name:</label>
+                    <input style="width: 160px;" type="text">
+                </div>
+                <div>
+                    <label>Street:</label>
+                    <input style="width: 200px;" type="text">
+        
+                    <label>House number:</label>
+                    <input style="width: 40px;" type="text">
+                </div>
+                <div>
+                    <label>Country:</label>
+                    <input style="width: 160px;" type="text">
+                </div>
+                <div>
+                    <label>Zip code:</label>
+                    <input style="width: 160px;" type="text">
+                </div>
+                <div>
+                    <label>Email:</label>
+                    <input style="width: 320px;" type="text">
+                </div><br>
+                <div>
+                    <label for="Sex">Gender:</label>
+                    <select name="Sex" id="Sex">
+                        <option value="Other" selected>Other</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="I would rather not say">I would rather not say</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="Language">Language:</label>
+                    <select name="Language" id="Language">
+                        <option value="English" selected>English</option>
+                        <option value="Romanian">Romanian</option>
+                        <option value="Dutch">Dutch</option>
+                    </select>
+                </div>
+                <div>
+                    <label style="position: relative; top: 0px;">Bio:</label>
+                    <input style="height: 300px; width: 320px;" type="text">
+                </div>
+                <div>
+                    <label for="Function">What is your role?</label>
+                    <select name="Function" id="Function">
+                        <option value="Passanger" selected>Passenger</option>
+                        <option value="Driver">Driver</option>
+                    </select> 
+                </div>
+                <input style="font-size: 24px;" type="submit" value="Submit"/>
+            </form>
+        </div>
+    </body>
+</html>
